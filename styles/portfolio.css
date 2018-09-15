@@ -1,0 +1,9 @@
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.projects-container ul li{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
