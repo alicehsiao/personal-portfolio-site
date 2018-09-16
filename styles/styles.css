@@ -6,9 +6,9 @@ body {
    margin: 0;
 }
 
-/* * {
+* {
   border: 1px black solid;
-} */
+}
 
 h1 {
   font-size: 4rem;
@@ -23,16 +23,16 @@ h1, h3 {
 }
 
 header {
-  padding: 5rem 0;
+  padding: 3rem 3rem;
 }
 
 header sub {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 1.4rem;
+  font-family: "Catamaran", "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
   display: block;
   line-height: 3rem;
   text-align: left;
-  padding-left: 2rem;
+  padding-left: 3rem;
   color: #959B9F;
 }
 
@@ -44,36 +44,4 @@ ul {
 .site-container {
   display: grid;
   grid-template-columns: 1fr;
-}
-
-.pages-container {
-  padding: 5rem;
-}
-
-/* .pages-container li:first-of-type {
-  background-image: url("../images/alice.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-
-.pages-container ul{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  justify-content: space-around;
-  grid-gap: 1rem;
-  /* grid-template-: 1fr 1fr; */
-}
-
-.social-media{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 5rem;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
 }

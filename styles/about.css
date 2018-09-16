@@ -1,23 +1,41 @@
-.about-container {
-  display: grid;
-  grid-template-columns: 1fr;
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
-main {
+.personal-info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto 28vw;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 0 6rem;
   grid-gap: 1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 50%;
+  font-size:90%;
+}
+
+.description {
+  grid-column-start: span 1;
 }
 
 p {
   text-align: left;
 }
 
+img {
+    width: 85%;
+    height: auto;
+    border-radius: 3%;
+}
+
+.description img {
+    margin-bottom: 5rem;
+}
+
 .sidebar {
+  height: 100%;
+  width: 28vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow-x: hidden;
   background-color: #202020;
   text-align: left;
   color: #FFFFFF;
@@ -31,12 +49,48 @@ p {
 .sidebar-nav, footer {
   padding-left: 2rem;
   padding-top: 1rem;
-  line-height: 1rem;
+  line-height: 1.6rem;
 }
 
 .sidebar-about h1 {
-  color: #FFFFFF;
+  color: #000000;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 2rem;
+  font-family: serif;
+  font-size: 3rem;
+}
+
+.sidebar-about a:hover {
+  text-decoration: underline;
+}
+
+.align-bottom {
+  position: fixed;
+  bottom:0;
+  width: 100%;
+}
+
+.description a:link {
+  color: #6699FF;
+}
+
+.description a:hover, .sidebar-nav a:hover {
+  color: tomato;
+}
+
+.description a:visited {
+  color: black;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer img {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
+footer nav a{
+  padding: 0.20rem;
 }

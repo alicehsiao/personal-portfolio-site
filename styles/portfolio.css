@@ -1,9 +1,108 @@
-.portfolio-container {
-  display: grid;
-  grid-template-columns: 1fr;
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
-.projects-container ul li{
+.projects-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 28vw;
+  justify-content: start;
+  padding: 0 6rem;
+  grid-gap: 1rem;
+  font-size:90%;
+}
+
+.list {
+  grid-column-start: span 1;
+  display: grid;
+  grid-template-areas: "c"
+                      "g"
+                      "s"
+                      "h";
+}
+
+.calc {
+  grid-area: c;
+  display: inline;
+}
+
+.groc {
+  grid-area: g;
+}
+
+.solar {
+  grid-area: s;
+}
+
+.hotel {
+  grid-area: h;
+}
+
+p {
+  text-align: left;
+}
+
+.sidebar {
+  height: 100%;
+  width: 28vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow-x: hidden;
+  background-color: #202020;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.sidebar a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.sidebar-nav, footer {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  line-height: 1.6rem;
+}
+
+.sidebar-about h1 {
+  color: #000000;
+  margin-top: 0;
+  font-family: serif;
+  font-size: 3rem;
+}
+
+.sidebar-about a:hover {
+  text-decoration: underline;
+}
+
+.align-bottom {
+  position: fixed;
+  bottom:0;
+  width: 100%;
+}
+
+.description a:link {
+  color: #6699FF;
+}
+
+.description a:hover, .sidebar-nav a:hover {
+  color: tomato;
+}
+
+.description a:visited {
+  color: black;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer img {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
+footer nav a{
+  padding: 0.20rem;
 }
