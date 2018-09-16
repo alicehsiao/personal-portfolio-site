@@ -31,7 +31,7 @@ header sub {
   line-height: 3rem;
   text-align: left;
   padding-left: 3rem;
-  color: #DCDCDC;
+  color: #B8B8B8;
 }
 
 .intro {
@@ -47,16 +47,16 @@ a:link {
   color: #FFFFFF;
 }
 
-a:hover {
+.dir a:hover {
   color: tomato;
 }
 
-a:visited{
+a:visited {
   color: #FFFFFF;
 }
 
 .name {
-  color: #418BDF;
+  color: #66CCFF;
 }
 
 .black {
