@@ -20,10 +20,6 @@ img {
   border: 5px solid white;
 }
 
-/* img:hover {
-  border: 5px solid #808080;
-} */
-
 .interests{
   padding: 1.5rem 0;
   position: relative;
@@ -31,11 +27,17 @@ img {
 
 .interests img {
   transition: 0.3s;
+  filter: blur(0.5px) brightness(50%);
 }
 
-.interests:hover img {
-  filter: blur(1px) brightness(80%);
+/* .interests:hover img {
+  filter: blur(0.5px) brightness(80%);
   box-shadow: 0 0 5px #808080;
+} */
+
+.interests:hover img {
+  transition: 0.3s;
+  filter: none;
 }
 
 .interests h3, .interests p {
@@ -43,13 +45,15 @@ img {
   top: 0;
   font-size: 2.5rem;
   color: #FFFFFF;
-  opacity: 0;
+  /* opacity: 0; */
+  opacity: 1;
   transition: 0.3s;
   margin-left: 9rem;
 }
 
 .interests:hover h3, .interests:hover p {
-  opacity: 1;
+  /* opacity: 1; */
+  opacity: 0;
 }
 
 .interests p {
