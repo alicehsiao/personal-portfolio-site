@@ -6,10 +6,29 @@ header, .blog-container {
 
 p {
   text-align: left;
+  padding: 0 6rem;
+}
+
+footer p {
+  padding: 0;
+}
+
+h2 {
+  text-align: left;
+  padding: 0 3rem;
 }
 
 img {
-    width: 85%;
-    height: auto;
-    border-radius: 3%;
+  width: 70%;
+  height: auto;
+  border-radius: 3%;
+  border: 5px solid white;
+}
+
+img:hover {
+  border: 5px solid #808080;
+}
+
+.interests {
+  padding: 1.5rem 0;
 }
