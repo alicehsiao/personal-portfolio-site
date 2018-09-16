@@ -1,14 +1,14 @@
 body {
-   font-family: 'Alegreya', serif;
-   text-align: center;
-   font-size: 22px;
-   padding: 0;
-   margin: 0;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
 }
 
-* {
+/* * {
   border: 1px black solid;
-}
+} */
 
 h1 {
   font-size: 4rem;
@@ -18,12 +18,13 @@ h1 {
 }
 
 h1, h3 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 
 header {
   padding: 3rem 3rem;
+  display: grid;
+  grid-template-columns: auto 28vw;
 }
 
 header sub {
@@ -33,12 +34,7 @@ header sub {
   line-height: 3rem;
   text-align: left;
   padding-left: 3rem;
-  color: #959B9F;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
+  color: #A9A9A9;
 }
 
 .site-container {

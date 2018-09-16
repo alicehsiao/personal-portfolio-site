@@ -1,9 +1,15 @@
-.blog-container {
-  display: grid;
-  grid-template-columns: 1fr;
+header, .blog-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 28vw;
 }
 
-.items section{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+p {
+  text-align: left;
+}
+
+img {
+    width: 85%;
+    height: auto;
+    border-radius: 3%;
 }

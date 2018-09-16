@@ -1,0 +1,64 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 15rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 2.5rem;
+  padding-top: 12rem;
+}
+
+nav {
+  grid-column: 2 / 3;
+}
+
+header {
+  padding: 3rem 3rem;
+  display: grid;
+  grid-template-columns: auto 28vw;
+  color: #FFFFFF;
+}
+
+header sub {
+  font-family: "Catamaran", "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  line-height: 3rem;
+  text-align: left;
+  padding-left: 3rem;
+  color: #DCDCDC;
+}
+
+.intro {
+  grid-column: 1 / 2;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: tomato;
+}
+
+a:visited{
+  color: #FFFFFF;
+}
+
+.name {
+  color: #418BDF;
+}
+
+.black {
+  color: #FFFFFF;
+}
