@@ -4,11 +4,6 @@ header, .blog-container {
   margin-right: 28vw;
 }
 
-p {
-  text-align: left;
-  padding: 0 6rem;
-}
-
 footer p {
   padding: 0;
 }
@@ -25,10 +20,42 @@ img {
   border: 5px solid white;
 }
 
-img:hover {
+/* img:hover {
   border: 5px solid #808080;
+} */
+
+.interests{
+  padding: 1.5rem 0;
+  position: relative;
 }
 
-.interests {
-  padding: 1.5rem 0;
+.interests img {
+  transition: 0.3s;
+}
+
+.interests:hover img {
+  filter: blur(1px) brightness(80%);
+  box-shadow: 0 0 5px #808080;
+}
+
+.interests h3, .interests p {
+  position: absolute;
+  top: 0;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  opacity: 0;
+  transition: 0.3s;
+  margin-left: 9rem;
+}
+
+.interests:hover h3, .interests:hover p {
+  opacity: 1;
+}
+
+.interests p {
+  text-align: left;
+  padding: 0 6rem;
+  font-size: 1rem;
+  top: 20%;
+  margin-left: 3rem;
 }
