@@ -1,23 +1,24 @@
 body {
    font-family: 'Alegreya', serif;
    text-align: center;
-   font-size: 24px;
+   font-size: 22px;
    padding: 0;
    margin: 0;
 }
 
-* {
+/* * {
   border: 1px black solid;
-}
+} */
 
 h1 {
   font-size: 4rem;
   padding: 2rem;
   margin: 0;
+  text-align: left;
 }
 
 h1, h3 {
-  font-family: 'Merriweather', serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 
@@ -26,9 +27,13 @@ header {
 }
 
 header sub {
-  font-size: 2rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
   display: block;
   line-height: 3rem;
+  text-align: left;
+  padding-left: 2rem;
+  color: #959B9F;
 }
 
 ul {
@@ -55,6 +60,8 @@ ul {
 .pages-container ul{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: space-around;
+  grid-gap: 1rem;
   /* grid-template-: 1fr 1fr; */
 }
 
@@ -68,4 +75,5 @@ ul {
 img {
     width: 100%;
     height: auto;
+    border-radius: 5%;
 }

@@ -4,6 +4,39 @@
 }
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
+  padding: 2rem;
+  grid-gap: 1rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 50%;
+}
+
+p {
+  text-align: left;
+}
+
+.sidebar {
+  background-color: #202020;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.sidebar a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.sidebar-nav, footer {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  line-height: 1rem;
+}
+
+.sidebar-about h1 {
+  color: #FFFFFF;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 2rem;
 }
