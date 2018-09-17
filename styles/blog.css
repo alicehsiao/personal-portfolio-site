@@ -63,3 +63,8 @@ img {
   top: 20%;
   margin-left: 4rem;
 }
+
+.blog-container p {
+  text-align: left;
+  padding: 0 6rem;
+}
