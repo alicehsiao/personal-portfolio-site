@@ -18,19 +18,10 @@ nav {
 }
 
 header {
-  padding: 3rem 3rem;
-  display: grid;
-  grid-template-columns: auto 28vw;
   color: #FFFFFF;
 }
 
 header sub {
-  font-family: "Catamaran", "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
-  display: block;
-  line-height: 3rem;
-  text-align: left;
-  padding-left: 3rem;
   color: #B8B8B8;
 }
 

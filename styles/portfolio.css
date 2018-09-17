@@ -1,15 +1,57 @@
-header, .projects-container {
+header, .container {
   display: flex;
   flex-direction: column;
   margin-right: 28vw;
 }
 
-p {
+.container {
+  padding: 10px 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container ul {
+  list-style-type: none;
+  position: relative;
+  padding: 0;
+}
+
+.container ul::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin-left: 5%;
+  background: #DDDDDD;
+}
+
+.container ul li {
+  padding: 20px 20px;
+  height: 15rem;
+}
+
+.container ul li div {
+  padding: 0.6% 12%;
+  font-size: 17px;
   text-align: left;
 }
 
+.container ul li span {
+  color: #AAAAAA;
+  position: absolute;
+  left: 5px;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  padding: 5px 0;
+}
+
+.selected div{
+  color: tomato;
+}
+
 img {
-    width: 85%;
-    height: auto;
-    border-radius: 3%;
+  display: block;
+  margin-left: 12%;
+  padding: 1rem 0;
 }
