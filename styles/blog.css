@@ -68,3 +68,9 @@ img {
   text-align: left;
   padding: 0 6rem;
 }
+
+.blog-container ul li {
+  text-align: left;
+  padding: 0;
+  margin-left: 6rem;
+}
