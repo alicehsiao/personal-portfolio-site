@@ -35,7 +35,7 @@ img {
   box-shadow: 0 0 5px #808080;
 } */
 
-.interests:hover img {
+.interests img:hover {
   transition: 0.3s;
   filter: none;
 }
@@ -47,7 +47,7 @@ img {
   color: #FFFFFF;
   /* opacity: 0; */
   opacity: 1;
-  transition: 0.3s;
+  /* transition: 0.3s; */
   margin-left: 10rem;
 }
 
