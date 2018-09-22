@@ -18,17 +18,17 @@ header, .container {
 .container ul::before {
   content: "";
   position: absolute;
-  width: 4px;
+  width: 6px;
   height: 100%;
   top: 0;
   left: 0;
-  margin-left: 5%;
+  margin-left: 8%;
   background: #DDDDDD;
 }
 
 .container ul li {
   padding: 20px 20px;
-  height: 15rem;
+  height: 22rem;
 }
 
 .container ul li div {
@@ -54,4 +54,5 @@ img {
   display: block;
   margin-left: 12%;
   padding: 1rem 0;
+  width: 60%;
 }
