@@ -56,3 +56,28 @@ img {
   padding: 1rem 0;
   width: 60%;
 }
+
+.container ul li .button {
+    background-color: white; /* Green */
+    border: 2px solid tomato;
+    color: white;
+    padding: 11px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    width: 15%;
+    margin-left: 12%;
+}
+
+.logos {
+  width: 6%;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 0 12%;
+  padding: 0.3rem 0;
+}
+
+.logos-selected{
+  border: 2px solid tomato;
+}
