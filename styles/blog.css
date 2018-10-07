@@ -1,7 +1,33 @@
-header, .blog-container {
+header {
   display: flex;
   flex-direction: column;
   margin-right: 28vw;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 28vw;
+}
+
+.interests {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.la-croix {
+  background-color: #EAEDF0;
+}
+
+.active {
+  background-color: #EAEDF0;
+}
+
+.travel {
+  background-color: #EAEDF0;
 }
 
 footer p {
@@ -20,57 +46,35 @@ img {
   border: 5px solid white;
 }
 
-.interests{
-  padding: 1.5rem 0;
-  position: relative;
-}
-
 .interests img {
   transition: 0.3s;
   filter: blur(0.5px) brightness(50%);
 }
-
-/* .interests:hover img {
-  filter: blur(0.5px) brightness(80%);
-  box-shadow: 0 0 5px #808080;
-} */
 
 .interests img:hover {
   transition: 0.3s;
   filter: none;
 }
 
-.interests h3, .interests p {
-  position: absolute;
-  top: 0;
-  font-size: 2.5rem;
+.titles {
+  display: flex;
+  flex-direction: column;
   color: #FFFFFF;
-  /* opacity: 0; */
   opacity: 1;
-  /* transition: 0.3s; */
-  margin-left: 10rem;
+  position: absolute;
 }
 
 .interests img:hover h3, .interests img:hover p {
-  /* opacity: 1; */
   opacity: 0;
 }
 
-.interests p {
-  text-align: left;
-  padding: 0 6rem;
-  font-size: 1rem;
-  top: 20%;
-  margin-left: 4rem;
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.blog-container p {
-  text-align: left;
-  padding: 0 6rem;
-}
-
-.blog-container ul li {
-  text-align: left;
-  padding: 0;
-  margin-left: 6rem;
+@media only screen and (min-width: 768px) {
+  .interests {
+    width: 50%;
+  }
 }
