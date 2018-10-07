@@ -22,7 +22,7 @@ header {
   background-color: #EAEDF0;
 }
 
-.active {
+.salad {
   background-color: #EAEDF0;
 }
 
@@ -76,5 +76,21 @@ img {
 @media only screen and (min-width: 768px) {
   .interests {
     width: 50%;
+  }
+
+  .la-croix {
+    background-color: #EAEDF0;
+  }
+
+  .active {
+    background-color: #EAEDF0;
+  }
+
+  .travel {
+    background-color: #EAEDF0;
+  }
+
+  .salad {
+    background-color: white;
   }
 }
