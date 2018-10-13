@@ -31,6 +31,10 @@ header, .container {
   height: 24rem;
 }
 
+.container ul li {
+  margin-bottom: 1rem;
+}
+
 .container ul li div {
   padding: 0.6% 12%;
   font-size: 17px;
