@@ -22,13 +22,13 @@ header, .container {
   height: 100%;
   top: 0;
   left: 0;
-  margin-left: 8%;
+  margin-left: 4%;
   background: #DDDDDD;
 }
 
 .container ul li {
   padding: 20px 20px;
-  height: 24rem;
+  height: 40rem;
 }
 
 .container ul li {
